@@ -3,6 +3,8 @@
 # GoogleCapstone: Cyclistic
 Cylistic, a bike-share company in Chicago, wants to know who annual members and casual riders are different. They have concluded that members are more profitable for the company and so they want to encourage casual riders to become members. The project description can be found [here](Description.pdf). 
 
+In this case study, I used data to theorize the main difference between how members and casual riders are using the bikes. I was then able to suggest action plan based on the findings. 
+
 ### Importing Data
 First, we downloaded the data from [link](https://divvy-tripdata.s3.amazonaws.com/index.html). Data include the rider information from July 2013 - Dec 2021. All data are downloded and tranferred into SQL using SSIS and SSMS tools. 
 
@@ -26,6 +28,12 @@ Date are processed in Python and initial insights are derived ([Python code](Pyt
 
 #### Hypothesis:
 Memebrs are using bikes for leisure activities while casual riders are using bikes for commuting to work.
+
+#### Action Plan:
+  * Increasing the number of stations near the Chicago's attractions, especially those around the Mishigan Lake.
+  * Providing tandem (twin) bikes which are appropriate for leisure activities. 
+  * Seting 20-minute limit for casual riders on weekends, after which the rental fee increases.
+  * Equipping bikes with saddles that are more appropriate for women riders.  
 
 ### Data Visualization
 Date are visualized in Tableau ([Tableau link](https://public.tableau.com/app/profile/hamed7970/viz/GoogleCapstone_16422249161910/Dashboard1))

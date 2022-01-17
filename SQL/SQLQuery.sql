@@ -1,4 +1,6 @@
 /****** Script for SelectTopNRows command from SSMS  ******/
+-- Data are imported from several folders using SSIS and SSMS tools (check https://www.youtube.com/watch?v=yaFf_pYsMgM&t=287s).
+
 
 ----------------------------
 --- IMPORTING DATA INTO ONE TABLE WITH CONSISTENT COLUMN NAMES

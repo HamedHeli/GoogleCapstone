@@ -16,7 +16,8 @@ Data are cleaning in SQL ([SQL codes](SQL/SQLQuery.sql)):
 
 ### Data Processing 
 Date are processed in Python and initial insights are derived ([Python code](Python/Bike_Sharing.ipynb))
-Observations:
+
+#### Observations:
   * Number of memebrs increase when pandemic started.
   * Memebrs are using bikes more on weekends while casual riders are riding more on weekdays.
   * Trip duration for members is taking longer than casual riders 

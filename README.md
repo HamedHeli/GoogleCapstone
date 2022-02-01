@@ -12,7 +12,7 @@ First, we downloaded the data from [link](https://divvy-tripdata.s3.amazonaws.co
 Data are cleaning in SQL ([SQL codes](SQL/SQLQuery.sql)):
   * Mismatched/inconsistent data are replaced so that column data are consistent 
   * Extra spaces and characters are removed from the names
-  * Null cells are filled, as much as possible, using the data from other rows
+  * Null cells are filled, as much as possible, by grouping data in other rows in a CTE
   * Duplicate data are removed
   * Data are checked for integrity and accuracy.
 
